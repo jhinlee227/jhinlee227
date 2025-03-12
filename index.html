@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsaid Thoughts</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #1e1e1e;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            padding: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: white;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+        }
+
+        p {
+            font-size: 1.3em;
+            color: #ccc;
+            opacity: 0;
+            animation: fadeIn 4s forwards;
+        }
+
+        .thoughts {
+            margin-top: 30px;
+            font-size: 1.5em;
+            color: rgba(255, 255, 255, 0.8);
+            opacity: 0;
+            animation: fadeIn 5s forwards;
+            animation-delay: 2s;
+            line-height: 1.6;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .hidden-thoughts {
+            display: none;
+            font-style: italic;
+            margin-top: 20px;
+            color: #fff;
+            font-size: 1.2em;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            transition: all 1s ease-in-out;
+        }
+
+        .show-thoughts:hover + .hidden-thoughts {
+            display: block;
+        }
+
+        .hidden-thoughts p {
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background-color:	#4caf50;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>"The Problem"</h1>
+        <p>I miss going to school without thinking—family problems, financial problems, and so much more.  Perhaps that's why I felt so strangely happy in the classroom; a desperate attempt to ignore the weight of it all.  But when I got home, it was like I was in outer space; the silence was deafening. I miss the old me and my father. I wouldn't feel this way if my father hadn't left us. Even though I'm not the eldest, it feels like a heavy burden rests on my shoulders because they depend on me. I'm the only one in the family still studying, so the fear of failing is overwhelming
